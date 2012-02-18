@@ -1,0 +1,10 @@
+Minimal Wordpres page breadcrumb function.
+It takes the ancestors of a page and build them in a HTML5 breadcrumb.
+
+The structure of the breadcrumb is:
+<nav class="breadcrumb">
+  <ul>
+    <li><a href="the-permalink">the-title</a></li>
+    [additional ancestor]
+  </ul>
+</nav>
